@@ -15,7 +15,7 @@
   "links": [
     {"source": "IAM", "target": "BM", "value": 3},
     {"source": "BM", "target": "CL", "value": 3},
-    {"source": "IAM", "target": "CL", "value": 1},
+    {"source": "IAM", "target": "CL", "value": 1}
 
   ]
 }
