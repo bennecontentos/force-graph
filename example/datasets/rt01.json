@@ -1,20 +1,24 @@
 {
   "nodes": [
     {"id": "BM", "group": 1},
-    {"id": "IAM", "group": 1},
-    {"id": "CL", "group": 1},
-    {"id": "SA", "group": 1},
-    {"id": "TD", "group": 1},
-    {"id": "OCS", "group": 1},
-    {"id": "BPV", "group": 1},
-    {"id": "GRIP", "group": 1},
-    {"id": "AS", "group": 1},
-    {"id": "PQ", "group": 1}
+    {"id": "IAM", "group": 2},
+    {"id": "CL", "group": 2},
+    {"id": "SA", "group": 2},
+    {"id": "TD", "group": 2},
+    {"id": "OCS", "group": 2},
+    {"id": "BPV", "group": 2},
+    {"id": "GRIP", "group": 2},
+    {"id": "AS", "group": 2},
+    {"id": "PQ", "group": 2}
  
   ],
   "links": [
-    {"source": "IAM", "target": "BM", "value": 3},
-    {"source": "BM", "target": "CL", "value": 3},
+    {"source": "IAM", "target": "BM", "value": 2},
+    {"source": "BM", "target": "CL", "value": 2},
+    {"source": "OCS", "target": "BM", "value": 2},
+    {"source": "BM", "target": "BPV", "value": 2},
+    
+    {"source": "OCS", "target": "BPV", "value": 1},
     {"source": "IAM", "target": "CL", "value": 1}
 
   ]
